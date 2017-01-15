@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_margin="0dp">
+        <EditText
+            android:id="@+id/edit_IP_address"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="@string/IPAddress"/>
+        <EditText
+            android:id="@+id/edit_Socket"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="@string/Socket"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_Intensity"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/Intensity"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
+        <TextView
+            android:text="@string/name0"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/text0"
+            android:text="@string/str0_0"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text1"
+            android:text="@string/strTimer"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+</LinearLayout>

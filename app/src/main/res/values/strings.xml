@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Transmitter </string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="error_msg">This sensor is not available on device</string>
+    <string name="name0">packets: </string>
+    <string name="name1">Y axis:</string> 
+    <string name="name2">Z axis:</string>    
+    <string name="namePulse">pulse:</string>  
+    <string name="nameRSSI">RSSI:</string> 
+    <string name="str0_0">0</string>
+    <string name="strTimer">000:00:00</string>
+    <string name="str0">0</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="IPAddress">IP adrr</string>
+    <string name="Socket">Socket</string>
+    <string name="Intensity">Intensity</string>
+    <string name="partial_wake_lock">Partial Wake Lock</string>
+
+</resources>
